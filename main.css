@@ -1,0 +1,30 @@
+body{
+    font-size: 5rem;
+    text-shadow: 0px 0px 100px;
+    animation: animasi 1.4s infinite linear;
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+    margin: 50px auto;
+    background-color: rgb(30,30,30);
+    text-align: center;
+    line-height: 200px;
+}
+
+@keyframes animasi {
+    0%, 100%{
+        color: lawngreen;
+    }
+
+    25%{
+        color: deeppink;
+    }
+
+    50%{
+        color: deepskyblue;
+    }
+
+    75%{
+        color: white;
+    }
+}
